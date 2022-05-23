@@ -90,13 +90,13 @@ endmodule
 ![timing](./up1.png)
 ![timing](./up2.png)
 ### TRUTH TABLE 
-![truth](./truthup.jpeg)
+![truth](./truthup.png)
 ### RTL LOGIC DOWN COUNTER  
 ![rtl](./downrtl.png)
 ### TIMING DIGRAMS FOR DOWN COUNTER  
 ![timing](./down1.png)
 ![timing](./down2.png)
 ### TRUTH TABLE 
-![truth](./truthdown.jpeg)
+![truth](./truthdown.png)
 ### RESULTS 
 Thus, the 4 bit up and down counters are implimented and the functionality is validated succesfully.

@@ -42,7 +42,7 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-1. Create 
+1. Create module proje
 2. 
 3. 
 4. End the verilog program using keyword endmodule.

@@ -5,9 +5,9 @@ To implement 4 bit up and down counters and validate  functionality.
 PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED: 
 Quartus prime
-### THEORY 
+## THEORY 
 
-## UP COUNTER 
+### UP COUNTER 
 The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
 
 The counter (“count“) value will be evaluated at every positive (rising) edge of the clock (“clk“) cycle.
@@ -35,13 +35,12 @@ Four-bit “Up” Counter
 
 
 
-## DOWN COUNTER 
+### DOWN COUNTER 
 
 As well as counting “up” from zero and increasing or incrementing to some preset value, it is sometimes necessary to count “down” from a predetermined value to zero allowing us to produce an output that activates when the zero count or some other pre-set value is reached.
 
 This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 4-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
 ![image](https://user-images.githubusercontent.com/36288975/169644844-1a14e123-7228-4ed8-81a9-eb937dff4ac8.png)
-
 
 4-bit Count Down Counter
 ### PROCEDURE
@@ -85,24 +84,19 @@ assign counter = counter_up;
 endmodule
 ```
 
-
-
-
-
-
 ### RTL LOGIC UP COUNTER  
 ![rtl](./uprtl.png)
 ### TIMING DIGRAMS FOR UP COUNTER  
 ![timing](./up1.png)
 ![timing](./up2.png)
 ### TRUTH TABLE 
-
+![truth](./truthup.jpeg)
 ### RTL LOGIC DOWN COUNTER  
 ![rtl](./downrtl.png)
 ### TIMING DIGRAMS FOR DOWN COUNTER  
 ![timing](./down1.png)
 ![timing](./down2.png)
 ### TRUTH TABLE 
-
+![truth](./truthdown.jpeg)
 ### RESULTS 
 Thus, the 4 bit up and down counters are implimented and the functionality is validated succesfully.
